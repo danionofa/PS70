@@ -106,6 +106,9 @@ code {
 }
 
 /* Page background */
+body {
+  background-color: #90d5ff;
+}
 
 /* Oak-colored frame around images */
 .frame {
