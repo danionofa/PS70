@@ -104,3 +104,25 @@ code {
 #aboutme {
   padding: 20px;
 }
+
+/* Page background */
+body {
+  background-color: #549ebc;
+}
+
+/* Oak-colored frame around images */
+.frame {
+  display: inline-block;
+  padding: 12px;                   /* spacing inside frame */
+  border: 12px solid #211008;      /* oak color */
+  border-radius: 10px;             /* soften edges */
+  background-color: #fff;          /* inner matting */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.frame img {
+  display: block;
+  max-width: 100%;                 /* responsive */
+  height: auto;
+  border-radius: 4px;
+}
