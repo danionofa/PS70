@@ -2,7 +2,7 @@ body {
     font: 20px "Gill Sans", Verdana, sans-serif;
     line-height: 1.8;
     color: #000000;
-    background-color: #549ebc;
+    background-color: #90d5ff;
     padding-top: 0px !important;
   }
 
@@ -106,9 +106,6 @@ code {
 }
 
 /* Page background */
-body {
-  background-color: #549ebc;
-}
 
 /* Oak-colored frame around images */
 .frame {
