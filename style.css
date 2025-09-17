@@ -60,20 +60,23 @@ nav {
 }
 
 #btn {
-  border: 3px outset #FFFFFF;
-  border-radius: 40px;
-  padding: 10px 30px;
-  background-color: #a3a3a3;
-  color: #000000;
-  transition: 0.3s;
+  border: 2px outset #FFFFFF;     /* subtle white border */
+  border-radius: 30px;            /* oval shape */
+  padding: 8px 24px;              /* slightly smaller size */
+  background-color: #211008;      /* oak background */
+  color: #FFFFFF;                 /* white text */
+  font-family: Georgia, serif;    /* matches your site font */
+  font-size: 14px;                /* balanced with smaller button */
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;                /* pointer on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 #btn:hover {
-  border: 3px inset #FFFFFF;
-  border-radius: 40px;
-  padding: 10px 30px;
-  background-color: #a3a3a3;
-  transition: 0.3s;
+  border: 2px inset #FFFFFF;
+  background-color: #3b2014;      /* slightly lighter oak on hover */
+  transform: translateY(-2px);    /* subtle lift effect */
 }
 
 .row {
