@@ -1,8 +1,9 @@
 body {
-    font: 20px "Gill Sans", Verdana, sans-serif;
+    font-family: Georgia, serif;
+    font-size: 20px;
     line-height: 1.8;
     color: #000000;
-    background-color: #ffc5d3;
+    background-color: #90d5ff;
     padding-top: 0px !important;
   }
 
@@ -23,7 +24,7 @@ a {
 }
 
 nav {
-  background-color: #dcdcdc;
+  background-color: #ffffff;
   color: #EEE7E8;
   padding: 50px 0px;
 }
@@ -103,26 +104,4 @@ code {
 
 #aboutme {
   padding: 20px;
-}
-
-/* Page background */
-body {
-  background-color: #90d5ff;
-}
-
-/* Oak-colored frame around images */
-.frame {
-  display: inline-block;
-  padding: 12px;                   /* spacing inside frame */
-  border: 12px solid #211008;      /* oak color */
-  border-radius: 10px;             /* soften edges */
-  background-color: #fff;          /* inner matting */
-  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
-}
-
-.frame img {
-  display: block;
-  max-width: 100%;                 /* responsive */
-  height: auto;
-  border-radius: 4px;
 }
