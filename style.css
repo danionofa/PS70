@@ -142,3 +142,16 @@ code {
   color: #3b2014;              /* slightly lighter oak on hover */
   text-decoration: underline;  /* gentle emphasis on hover */
 }
+
+.center-row img {
+  display: block;
+  width: 100%;             /* fills its container */
+  max-width: 300px;        /* consistent max size */
+  height: 250px;           /* lock uniform height */
+  object-fit: cover;       /* crop images nicely without distortion */
+  margin: 0 auto 2px;          /* center the image in its column */
+  border: 6px solid #211008;   /* oak border */
+  border-radius: 10px;         /* soften the corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* subtle depth */
+  background-color: #fff;      /* mat background behind image */
+}
