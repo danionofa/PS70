@@ -20,7 +20,6 @@ a {
 
 .container-fluid {
   padding: 0px;
-  /*padding-bottom: 70px;*/
 }
 
 nav {
@@ -39,8 +38,6 @@ nav {
 }
 
 .nav-title{
-  /* margin-left: 15px;
-  margin-right: 15px; */
   color: #000000;
   text-align: left
 }
@@ -63,23 +60,23 @@ nav {
 }
 
 #btn {
-  border: 2px outset #FFFFFF;     /* subtle white border */
-  border-radius: 30px;            /* oval shape */
-  padding: 8px 24px;              /* slightly smaller size */
-  background-color: #211008;      /* oak background */
-  color: #FFFFFF;                 /* white text */
-  font-family: Georgia, serif;    /* matches your site font */
-  font-size: 14px;                /* balanced with smaller button */
+  border: 2px outset #FFFFFF;     
+  border-radius: 30px;            
+  padding: 8px 24px;              
+  background-color: #211008;      
+  color: #FFFFFF;                 
+  font-family: Georgia, serif;    
+  font-size: 14px;                
   font-weight: bold;
   text-align: center;
-  cursor: pointer;                /* pointer on hover */
+  cursor: pointer;                
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 #btn:hover {
   border: 2px inset #FFFFFF;
-  background-color: #3b2014;      /* slightly lighter oak on hover */
-  transform: translateY(-2px);    /* subtle lift effect */
+  background-color: #3b2014;      
+  transform: translateY(-2px);    
 }
 
 .row {
@@ -115,49 +112,43 @@ code {
 
 .col-sm-4 img {
   display: block;
-  width: 100%;             /* fills its container */
-  max-width: 300px;        /* consistent max size */
-  height: 250px;           /* lock uniform height */
-  object-fit: cover;       /* crop images nicely without distortion */
-  margin: 0 auto 2px;          /* center the image in its column */
-  border: 6px solid #211008;   /* oak border */
-  border-radius: 10px;         /* soften the corners */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* subtle depth */
-  background-color: #fff;      /* mat background behind image */
+  width: 100%;             
+  max-width: 300px;        
+  height: 250px;           
+  object-fit: cover;       
+  margin: 0 auto 2px;          
+  border: 6px solid #211008;   
+  border-radius: 10px;         
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+  background-color: #fff;      
 }
 
 .col-sm-4 a {
-  display: block;              /* put each link on its own line */
-  text-align: center;          /* center under the image */
-  font-family: Georgia, serif; /* match site font */
+  display: block;              
+  text-align: center;          
+  font-family: Georgia, serif; 
   font-size: 16px;
   font-weight: bold;
-  color: #211008;              /* oak text */
-  text-decoration: none;       /* remove underline */
-  margin-top: 4px;             /* tighten spacing under image */
+  color: #211008;              
+  text-decoration: none;       
+  margin-top: 4px;             
   transition: color 0.2s ease;
 }
 
 .col-sm-4 a:hover {
-  color: #3b2014;              /* slightly lighter oak on hover */
-  text-decoration: underline;  /* gentle emphasis on hover */
+  color: #3b2014;              
+  text-decoration: underline;  
 }
 
 .center-row img {
   display: block;
-  width: 100%;             /* fills its container */
-  max-width: 300px;        /* consistent max size */
-  height: 250px;           /* lock uniform height */
-  object-fit: cover;       /* crop images nicely without distortion */
-  margin: 0 auto 2px;          /* center the image in its column */
-  border: 6px solid #211008;   /* oak border */
-  border-radius: 10px;         /* soften the corners */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* subtle depth */
-  background-color: #fff;      /* mat background behind image */
-}
-
-iframe {
-  display: block;       
-  margin: 0 auto;  
-  justify-content: center;     
+  width: 100%;             
+  max-width: 300px;        
+  height: 250px;           
+  object-fit: cover;       
+  margin: 0 auto 2px;          
+  border: 6px solid #211008;   
+  border-radius: 10px;         
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+  background-color: #fff;      
 }
