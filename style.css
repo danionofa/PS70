@@ -110,7 +110,7 @@ code {
   padding: 20px;
 }
 
-image {
+.col-sm-4 image {
   display: block;
   width: 100%;             /* fills its container */
   max-width: 300px;        /* consistent max size */
