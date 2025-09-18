@@ -118,9 +118,25 @@ code {
   height: 250px;           /* lock uniform height */
   object-fit: cover;       /* crop images nicely without distortion */
   margin: 0 auto 2px;          /* center the image in its column */
-
   border: 6px solid #211008;   /* oak border */
   border-radius: 10px;         /* soften the corners */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* subtle depth */
   background-color: #fff;      /* mat background behind image */
+}
+
+.col-sm-4 a {
+  display: block;              /* put each link on its own line */
+  text-align: center;          /* center under the image */
+  font-family: Georgia, serif; /* match site font */
+  font-size: 16px;
+  font-weight: bold;
+  color: #211008;              /* oak text */
+  text-decoration: none;       /* remove underline */
+  margin-top: 4px;             /* tighten spacing under image */
+  transition: color 0.2s ease;
+}
+
+.col-sm-4 a:hover {
+  color: #3b2014;              /* slightly lighter oak on hover */
+  text-decoration: underline;  /* gentle emphasis on hover */
 }
