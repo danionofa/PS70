@@ -109,3 +109,12 @@ code {
 #aboutme {
   padding: 20px;
 }
+
+image {
+  display: block;
+  width: 100%;             /* fills its container */
+  max-width: 300px;        /* consistent max size */
+  height: 200px;           /* lock uniform height */
+  object-fit: cover;       /* crop images nicely without distortion */
+  margin: 0 auto;          /* center the image in its column */
+}
